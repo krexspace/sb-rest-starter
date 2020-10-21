@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.etrade.platformservices</groupId>
+        <groupId>com.et.platformservices</groupId>
         <artifactId>platformservices-account</artifactId>
         <version>0.1.0</version>
     </parent>
@@ -11,7 +11,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.etrade.f1</groupId>
+            <groupId>com.et.f1</groupId>
             <artifactId>f1-core</artifactId>
             <version>0.3.3</version>
         </dependency>
@@ -76,17 +76,17 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.etrade.platformservices</groupId>
+            <groupId>com.et.platformservices</groupId>
             <artifactId>platformservices-proto</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.etrade.platformservices</groupId>
+            <groupId>com.et.platformservices</groupId>
             <artifactId>platformservices-account-service-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.etrade.platformservices</groupId>
+            <groupId>com.et.platformservices</groupId>
             <artifactId>platformservices-account-service-impl</artifactId>
             <version>${project.version}</version>
         </dependency>
